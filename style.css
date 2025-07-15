@@ -1,0 +1,74 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('https://cdn.glitch.global/41f05d79-3f2b-4d9e-9595-0f0211660c77/92eb86ab-7d64-4134-ad08-c0604a3c6a10.image.png?v=1744747090016');
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed; 
+}
+
+table, .total, button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px; 
+  padding: 10px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 6px;
+  border: 1px solid;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input.qtd, input.valor {
+  width: 35px; 
+  text-align: center;
+}
+
+.soma {
+  text-align: right;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50; 
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+td button {
+  padding: 3px 6px;
+  font-size: 0.8em;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color:black;
+}
