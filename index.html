@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ana Lista de Compras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Lista de Compras</h1>
+
+  <table id="tabela-itens">
+    <thead>
+      <tr>
+        <th>Qt</th>
+        <th>Item</th>
+        <th>V.U</th>
+        <th>Soma</th>
+        <th>Remover</th>
+      </tr>
+    </thead>
+    <tbody id="corpo-tabela"></tbody>
+  </table>
+
+  <button onclick="adicionarItem()">Adicionar Item</button>
+  <button onclick="novaLista()">Nova Lista</button>
+  <button onclick="limparValores()">Limpar Valores</button>
+  <button onclick="restaurarListaOriginal()">Lista Original</button>
+
+  <div class="total" id="total-geral">Total Geral: R$ 0.00</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
